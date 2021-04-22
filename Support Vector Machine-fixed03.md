@@ -80,7 +80,8 @@ $$
 \lambda_i[1-y_i(w^Tx_i+b)]=0\end{aligned}\right.
 $$
 
-根据KKT条件求$w^*,b^*$:其中$w^*$上面已得到 $w^*=\sum_{i=1}^{N}\lambda_iy_ix_i$ ; 
+根据KKT条件求$w^*,b^*:w^*$ \\\\\
+上面已得到 $w^*=\sum_{i=1}^{N}\lambda_iy_ix_i$;\\\\\ 
 可见$w^*$是数据data的线性组合
 
 下面来求 $b^*$:
