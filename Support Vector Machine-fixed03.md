@@ -19,9 +19,7 @@ s.t.\ w^Tx_i + b > 0,y_i = +1\\\\
 w^Tx_i + b < 0,y_i = -1，i=1,2...N
 $$
 其中 $ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i + b|$ 表示训练样本中与超平面最近的点 到 超平面的距离； 
-$ \underset {w,b}{max}\ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i + b| $ 则表示目标函数为使这个距离 也就是 "间隔" 最大；
-
-约束条件表示样本能够正确分类
+$ \underset {w,b}{max}\ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i + b| $ 则表示目标函数为使这个距离 也就是 "间隔" 最大；约束条件表示样本能够正确分类
 
 
 
