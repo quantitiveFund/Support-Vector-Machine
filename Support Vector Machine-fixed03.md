@@ -59,9 +59,9 @@ $$
   先求 $ \underset{w,b}{min}\ L(w,b,\lambda)$ :
 
 $$
-对b求偏导:\frac{\partial L}{\partial b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ (1)\\ 
-(1)代入L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N} \lambda_i- \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i\\ 
-对w求偏导:\frac{\partial L}{\partial w}=0 \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i\ (2)\\
+对b求偏导:\frac{\partial L}{\partial b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ (1)\\\\
+(1)代入L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N} \lambda_i- \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i\\\\\
+对w求偏导:\frac{\partial L}{\partial w}=0 \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i\ (2)\\\\\
 (2)代入L(w,b,\lambda)=\sum_{i=1}^{N}\lambda_i-\frac{1}{2}\sum_{i=1}^{n}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j
 $$
 
