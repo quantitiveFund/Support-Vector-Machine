@@ -54,31 +54,31 @@ L(w,b,\lambda) = \frac{1}{2}w^Tw + \sum_{i=1}^{i=N}\lambda_i[1-y_i(w^Tx_i + b)]\
 $$
 
 * 将带约束形式的原问题写为无约束形式:
-  $$
-  \underset{w,b}{min}\ \underset{\lambda}{max} \ L(w,b,\lambda) \\s.t. \ \ \lambda_i ≥ 0
-  $$
+$$
+\underset{w,b}{min}\ \underset{\lambda}{max} \ L(w,b,\lambda) \\s.t. \ \ \lambda_i ≥ 0
+$$
 
 * 转化为对偶问题：
-  $$
-  \underset{\lambda}{max}\ \underset{w,b}{min}\ L(w,b,\lambda) \\s.t.\ \ \lambda_i ≥ 0
-  $$
-  
+$$
+\underset{\lambda}{max}\ \underset{w,b}{min}\ L(w,b,\lambda) \\s.t.\ \ \lambda_i ≥ 0
+$$
+
   先求 $ \underset{w,b}{min}\ L(w,b,\lambda)$ :
-  
-  $$
+
+$$
   对\ b \ 求偏导:\ \ \frac{\partial\ L}{\partial \ b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ \ (1)\\ \ (1)代入\ L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N}\ \lambda_i \ - \ \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i\\
   对\ w \ 求偏导：\ \frac{\partial\ L}{\partial w}=0\ \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i \ \ (2) \\
   (2)代入L(w,b,\lambda)= \sum_{i=1}^{N}\lambda_i-\frac{1}{2}\sum_{i=1}^{n}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j
-  $$
+$$
 
 * 对偶问题的等价形式:
-  $$
+$$
   \underset{\lambda}{min}\ \ \ (\frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j-\sum_{i=1}^{N}\lambda_i)
-  $$
+$$
 
 
 
-### 1.5  $KKT$ 条件
+### 1.5  KKT 条件
 
 $$
 \left\{\begin{aligned}\lambda_i≥0\\
