@@ -71,7 +71,7 @@ $$
 
 * 对偶问题的等价形式:
 $$
-  \underset{\lambda}{min}\ \ \ (\frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j-\sum_{i=1}^{N}\lambda_i)
+\underset{\lambda}{min}\ \ \ (\frac{1}{2}\sum_{i=1}^{N}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j-\sum_{i=1}^{N}\lambda_i)
 $$
 
 
@@ -84,7 +84,8 @@ $$
 \lambda_i[1-y_i(w^Tx_i+b)]=0\end{aligned}\right.
 $$
 
-$根据KKT条件求  w^*,b^* :其中w^*上面已得到  w^*=\sum_{i=1}^{N}\lambda_iy_ix_i ; (可见 w^* 是数据data的线性组合)$
+根据KKT条件求 $w^*,b^*$:其中$w^*$ 上面已得到  $w^*=\sum_{i=1}^{N}\lambda_iy_ix_i$ ; 
+可见$ w^*$ 是数据data的线性组合
 
 下面来求 $b^*$:
 
