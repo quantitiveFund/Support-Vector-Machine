@@ -61,10 +61,10 @@ $$
   先求 $ \underset{w,b}{min}\ L(w,b,\lambda)$ :
 
 $$
-对\ b \ 求偏导:\ \ \frac{\partial\ L}{\partial \ b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ \ (1) \\ 
-(1)代入\ L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N}\ \lambda_i \ - \ \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i \\ 
-对w求偏导: \frac{\partial \ L}{\partial w}=0\ \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i \ \ (2) \\
-(2)代入L(w,b,\lambda)= \sum_{i=1}^{N}\lambda_i-\frac{1} {2}\sum_{i=1}^{n}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j
+对b求偏导:\frac{\partial L}{\partial b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ (1)\\ 
+(1)代入L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N} \lambda_i- \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i\\ 
+对w求偏导:\frac{\partial L}{\partial w}=0 \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i\ (2)\\
+(2)代入L(w,b,\lambda)=\sum_{i=1}^{N}\lambda_i-\frac{1}{2}\sum_{i=1}^{n}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j
 $$
 
 * 对偶问题的等价形式:
@@ -89,10 +89,10 @@ $$
 
 <img src="C:\Users\15735\Desktop\硕士文件\松弛互补.png" alt="松弛互补" style="zoom: 67%;" />
 $$
-\exists\ (x_k,y_k)\ 使得 \ 1-y_k(w^Tx_k+b)=0\\
-y_k(w^Tx_k+b)=1\ \ 两边同乘\ y_k\\
+\exists(x_k,y_k)使得1-y_k(w^Tx_k+b)=0\\
+y_k(w^Tx_k+b)=1两边同乘\ y_k\\
 (w^Tx_k+b)=y_k\\
-b=y_k-w^Tx_k\ \ 将w^*代入\\
+b=y_k-w^Tx_k,将w^*代入\\
 b^*=y_k-\sum_{i=1}^{N}\lambda_iy_ix_i^Tx_k
 $$
 划分超平面：  $w^*x+b^*$
