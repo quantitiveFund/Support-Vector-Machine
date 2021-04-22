@@ -55,7 +55,8 @@ $$
 
 * 转化为对偶问题：
 $$
-\underset{\lambda}{max}\ \underset{w,b}{min}\ L(w,b,\lambda) \\s.t.\ \ \lambda_i ≥ 0
+\underset{\lambda}{max}\ \underset{w,b}{min}\ L(w,b,\lambda) \\\\\
+s.t.\ \ \lambda_i ≥ 0
 $$
 
   先求 $ \underset{w,b}{min}\ L(w,b,\lambda)$ :
