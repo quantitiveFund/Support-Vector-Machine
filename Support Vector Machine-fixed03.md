@@ -79,9 +79,13 @@ $$
 ### 1.5  KKT 条件
 
 $$
-\left\{\begin{aligned}\lambda_i≥0\\
-1-y_i(w^Tx_i+b)≤0\\
-\lambda_i[1-y_i(w^Tx_i+b)]=0\end{aligned}\right.
+KKT=\left\{
+\begin{matrix}
+\lambda_i≥0\\\\\
+1-y_i(w^Tx_i+b)≤0\\\\\
+\lambda_i[1-y_i(w^Tx_i+b)]=0
+\end{matrix}
+\right.
 $$
 
 根据KKT条件求$w^*,b^*:w^*$ \\\\\
