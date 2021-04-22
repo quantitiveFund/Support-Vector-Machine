@@ -49,7 +49,8 @@ $$
 
 * 将带约束形式的原问题写为无约束形式:
 $$
-\underset{w,b}{min}\ \underset{\lambda}{max} \ L(w,b,\lambda) \\s.t. \ \ \lambda_i ≥ 0
+\underset{w,b}{min}\underset{\lambda}{max}L(w,b,\lambda) \\\\\
+s.t. \ \ \lambda_i ≥ 0
 $$
 
 * 转化为对偶问题：
