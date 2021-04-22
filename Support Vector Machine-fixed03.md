@@ -33,7 +33,7 @@ $$
 
 约束条件变为  $y_i(w^Tx_i + b) ≥ 1$, 得到最终的约束优化问题(原问题):
 $$
-\underset{w,b}{min}\frac{1}{2}w^Tw \\
+\underset{w,b}{min}\frac{1}{2}w^Tw \\\\\
 s.t. \ \  y_i(w^Tx_i + b） ≥ 1 \ \ i =1, 2……N
 $$
 
@@ -43,7 +43,8 @@ $$
 
 
 $$
-L(w,b,\lambda) = \frac{1}{2}w^Tw + \sum_{i=1}^{i=N}\lambda_i[1-y_i(w^Tx_i + b)]\\ 其中\ \lambda_i≥0，1-y_i(w^Tx_i + b)≤0
+L(w,b,\lambda) = \frac{1}{2}w^Tw + \sum_{i=1}^{i=N}\lambda_i[1-y_i(w^Tx_i + b)]\\\\\
+其中\ \lambda_i≥0，1-y_i(w^Tx_i + b)≤0
 $$
 
 * 将带约束形式的原问题写为无约束形式:
