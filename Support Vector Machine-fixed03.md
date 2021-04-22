@@ -16,7 +16,9 @@ SVM学习的基本想法是基于训练集D在样本空间中找到一个能够�
 * 第一步
 
 $$
-\underset{w,b}{max}\ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i+b|\\s.t. \ w^Tx_i + b > 0,y_i = +1 \\w^Tx_i + b < 0,y_i = -1，i=1,2...N
+\underset{w,b}{max}\ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i+b|\\
+s.t. \ w^Tx_i + b > 0,y_i = +1 \\
+w^Tx_i + b < 0,y_i = -1，i=1,2...N
 $$
 
  其中 $ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i + b|$ 表示训练样本中与超平面最近的点 到 超平面的距离； 
@@ -63,7 +65,10 @@ $$
   先求 $ \underset{w,b}{min}\ L(w,b,\lambda)$ :
 
 $$
-对\ b \ 求偏导:\ \ \frac{\partial\ L}{\partial \ b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ \ (1) \\ (1)代入\ L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N}\ \lambda_i \ - \ \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i \\ 对w求偏导: \frac{\partial \ L}{\partial w}=0\ \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i \ \ (2) \\(2)代入L(w,b,\lambda)= \sum_{i=1}^{N}\lambda_i-\frac{1}{2}\sum_{i=1}^{n}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j
+对\ b \ 求偏导:\ \ \frac{\partial\ L}{\partial \ b} = 0 \rightarrow \sum_{i=1}^{N} \lambda_iy_i=0\ \ (1) \\ 
+(1)代入\ L(w,b,\lambda)=\frac{1}{2}w^Tw + \sum_{i=1}^{N}\ \lambda_i \ - \ \sum_{i=1}^{N}\ \lambda_iy_iw^Tx_i \\ 
+对w求偏导: \frac{\partial \ L}{\partial w}=0\ \rightarrow w=\sum_{i=1}^{N}\lambda_iy_ix_i \ \ (2) \\
+(2)代入L(w,b,\lambda)= \sum_{i=1}^{N}\lambda_i-\frac{1} {2}\sum_{i=1}^{n}\sum_{j=1}^{N}\lambda_i\lambda_jy_iy_jx_i^Tx_j
 $$
 
 * 对偶问题的等价形式:
