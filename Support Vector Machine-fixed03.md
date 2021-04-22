@@ -27,7 +27,7 @@ $ \underset {w,b}{max}\ \underset{x_i}{min} \frac{1}{||w||}|w^Tx_i + b| $ 则表
 
 * 第二步：
 $$
-\underset{w,b}{max}\frac{1}{||w||} \underset{x_i}{min}\ y_i(w^Tx_i + b) \\
+\underset{w,b}{max}\frac{1}{||w||} \underset{x_i}{min}\ y_i(w^Tx_i + b) \\\\
 s.t.\ \ y_i(w^Tx_i + b) > 0 \ \ \ i = 1,2...N
 $$
 
