@@ -16,9 +16,7 @@ SVM学习的基本想法是基于训练集D在样本空间中找到一个能够�
 * 第一步
 
 $$
-\underset{w,b}{max}\ \underset{x_i}{min}\frac{1}{||w||}|w^Tx_i + b| \\                                     
-s.t. \ \ w^Tx_i + b > 0,y_i = +1 \\                                    
-
+\underset{w,b}{max}\ \underset{x_i}{min}\frac{1}{||w||}|w^Tx_i + b| \\                            s.t. \ \ w^Tx_i + b > 0,y_i = +1 \\                                    
 w^Tx_i + b < 0,y_i = -1 \ \ \ \ i=1,2...N
 $$
 
