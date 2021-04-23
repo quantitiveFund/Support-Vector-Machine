@@ -1,4 +1,4 @@
-<div align='center'><font size ='70'>  Support Vector Machine </font></div>
+# Support Vector Machine
 
 ## 1 hard-margin SVM
 ### 1.1基本概念：
