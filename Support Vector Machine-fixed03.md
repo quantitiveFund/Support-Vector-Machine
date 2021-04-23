@@ -96,10 +96,10 @@ $$
 ![松弛互补](https://github.com/wangchuan-hub/Support-Vector-Machine/blob/main/%E6%9D%BE%E5%BC%9B%E4%BA%92%E8%A1%A5.png)
 
 $$
-\exists(x_k,y_k)使得1-y_k(w^Tx_k+b)=0\\
-y_k(w^Tx_k+b)=1两边同乘\ y_k\\
-(w^Tx_k+b)=y_k\\
-b=y_k-w^Tx_k,将w^*代入\\
+\exists(x_k,y_k)使得1-y_k(w^Tx_k+b)=0\\\\
+y_k(w^Tx_k+b)=1两边同乘\ y_k\\\\
+(w^Tx_k+b)=y_k\\\\
+b=y_k-w^Tx_k,将w^*代入\\\\
 b^*=y_k-\sum_{i=1}^{N}\lambda_iy_ix_i^Tx_k
 $$
 
