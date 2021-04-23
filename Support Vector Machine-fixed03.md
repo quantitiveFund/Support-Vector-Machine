@@ -88,8 +88,9 @@ KKT=\left\{
 \right.
 $$
 
-
-根据KKT条件求: $ w^*, b^ *$  w^* = \sum_{i=1}^{N}\lambda_iy_ix_i,  其中 w^* 是数据data的线性组合
+$$
+根据KKT条件求:  w^ *, b^ *  w^ * = \sum_{i=1}^{N}\lambda_iy_ix_i,  其中 w^ *是数据data的线性组合
+$$
 
 下面来求 $b^*$:
 
