@@ -1,4 +1,4 @@
-<center># Support Vector Machine</center>
+# Support Vector Machine
 
 ## 1 hard-margin SVM
 ### 1.1基本概念：
