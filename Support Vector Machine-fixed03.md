@@ -93,7 +93,7 @@ $$
 
 下面来求 $b^*$:
 
-<img src="C:\Users\15735\Desktop\硕士文件\松弛互补.png" alt="松弛互补" style="zoom: 67%;" />
+![松弛互补](https://github.com/wangchuan-hub/Support-Vector-Machine/blob/main/%E6%9D%BE%E5%BC%9B%E4%BA%92%E8%A1%A5.png)
 $$
 \exists(x_k,y_k)使得1-y_k(w^Tx_k+b)=0\\
 y_k(w^Tx_k+b)=1两边同乘\ y_k\\
