@@ -82,16 +82,16 @@ $$
 
 \left\{
 \begin{aligned}
-\lambda_i ≥ 0\\\\
-1-y_i(w^T x_i+b) ≤ 0\\\\
-\lambda_i&\[1-y_i(w^Tx_i+b)] = 0
+\lambda_i& ≥ 0\\\\
+1-y_i(w^T x_i+b)& ≤ 0\\\\
+\lambda_i&\[1-y_i(w^Tx_i+b)]& = 0
 \end{aligned}
 \right.
 
 $$
 
 $$
-根据KKT条件求:  w^ *, b^ * \\\\
+下面根据KKT条件求:  w^ *, b^ * \\\\
 w^ * 上面已经得到 w^ * = \sum_{i=1}^{N}\lambda_iy_ix_i( 可见w^ *是数据data的线性组合)
 $$
 
