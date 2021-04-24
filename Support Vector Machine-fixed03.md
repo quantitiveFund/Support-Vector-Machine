@@ -79,13 +79,13 @@ $$
 ### 1.5  KKT 条件
 
 $$
-KKT=\left\{
-\begin{matrix}
-\lambda_i≥0\\\\\
-1-y_i(w^Tx_i+b)≤0\\\\\
-\lambda_i[1-y_i(w^Tx_i+b)]=0
-\end{matrix}
-\right.
+
+KKT=
+\begin{cases}
+\lambda_i ≥ 0\\
+1-y_i(w^Tx_i+b) ≤ 0\\
+\lambda_i = 0
+
 $$
 
 $$
