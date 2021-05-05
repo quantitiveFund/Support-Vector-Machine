@@ -227,7 +227,7 @@ $$
 
   
 
-<img src="C:\Users\15735\Desktop\硕士文件\常用核函数.png" alt="常用核函数" style="zoom: 80%;" />
+！[常用核函数](https://github.com/quantitiveFund/Support-Vector-Machine1/blob/main/%E5%B8%B8%E7%94%A8%E6%A0%B8%E5%87%BD%E6%95%B0.png)
 
 
 
