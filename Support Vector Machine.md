@@ -134,7 +134,7 @@ $$
 
 缓解该问题的方法是允许支持向量机在一些样本上出错，为此，引入"软间隔"概念
 
-<img src="C:\Users\15735\Desktop\硕士文件\软间隔.png" alt="软间隔示意图" style="zoom: 67%;" />
+![软间隔示意图](https://github.com/quantitiveFund/Support-Vector-Machine1/blob/main/%E8%BD%AF%E9%97%B4%E9%9A%94.png)
 
 线性不可分意味着某些样本点不满足 间隔$y_i(w^Tx_i + b） ≥ 1$，为解决这个问题，引入松弛变量$\xi_i≥0$，使得间隔加上松弛变量大于等于1，则约束条件变为：
 $$
@@ -182,9 +182,8 @@ $$
 
 ### 4.1 非线性问题与核技巧
 
-<img src="C:\Users\15735\Desktop\硕士文件\屏幕截图 2021-05-04 111626.png" alt="非线性分类问题" style="zoom: 50%;" />
-
-<img src="C:\Users\15735\Desktop\硕士文件\异或问题.png" alt="异或问题" style="zoom:67%;" />
+![非线性分类问题](https://github.com/quantitiveFund/Support-Vector-Machine1/blob/main/%E9%9D%9E%E7%BA%BF%E6%80%A7%E9%97%AE%E9%A2%98.png)
+![异或问题](https://github.com/quantitiveFund/Support-Vector-Machine1/blob/main/%E5%BC%82%E6%88%96%E9%97%AE%E9%A2%98.png)
 
 非线性问题不好求解，可以采取非线性变换，将非线性问题转化为线性问题，通过解变换后的线性问题的方法求解原来的非线性问题。
 
