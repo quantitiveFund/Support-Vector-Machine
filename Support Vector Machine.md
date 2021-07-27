@@ -11,7 +11,7 @@
 
 SVM学习的基本想法是基于训练集D在样本空间中找到一个能够将训练样本分开，并且几何间隔最大的划分超平面。对于线性可分的数据集来说，这样的超平面有无穷多个，但是几何间隔最大的分离超平面却是唯一的。这样的超平面对训练样本局部扰动的"容忍"最好，产生的分类结果是最鲁棒的(Robust)，泛化能力最强。
 
-![划分超平面](C:\Users\wangchuan\Desktop\硕士文件\svm划分超平面 2021-04-19 181503.png)
+![划分超平面](https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/svm%E5%88%92%E5%88%86%E8%B6%85%E5%B9%B3%E9%9D%A2%202021-04-19%20181503.png)
 
 支持向量机可分为：线性可分支持向量机，线性支持向量机，非线性支持向量机。
 
@@ -25,7 +25,7 @@ SVM学习的基本想法是基于训练集D在样本空间中找到一个能够�
 
 ### 2.1 模型构建：
 
-![支持向量与间隔](C:\Users\wangchuan\Desktop\硕士文件\松弛互补.png)
+![支持向量与间隔](https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E6%9D%BE%E5%BC%9B%E4%BA%92%E8%A1%A5.png)
 
 在样本空间中，划分超平面由 $w^Tx + b = 0$表示，其中 w 为法向量,决定超平面的方向，b 为位移项，决定超平面与原点的距离。
 
@@ -91,7 +91,7 @@ $$
 
 下面来求 $b^*$:
 
-![松弛互补](C:\Users\15735\Desktop\硕士文件\松弛互补.png)
+![松弛互补](https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E6%9D%BE%E5%BC%9B%E4%BA%92%E8%A1%A5.png)
 
 $$
 \exists(x_k,y_k) 使得 1-y_k(w^Tx_k+b)=0\\\\
@@ -113,7 +113,7 @@ $$
 
 缓解该问题的方法是允许支持向量机在一些样本上出错，为此，引入"软间隔"概念
 
-<img src="C:\Users\15735\Desktop\硕士文件\软间隔.png" alt="软间隔示意图" style="zoom: 67%;" />
+<img src="https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E8%BD%AF%E9%97%B4%E9%9A%94.png" />
 
 线性不可分意味着某些样本点不满足 间隔$y_i(w^Tx_i + b） ≥ 1$，为解决这个问题，引入松弛变量$\xi_i≥0$，使得间隔加上松弛变量大于等于1，则约束条件变为：
 $$
