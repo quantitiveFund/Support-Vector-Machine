@@ -253,9 +253,9 @@ $$
 
 (3) 未剪辑的解：
 $$
-\lambda_2^{new,unc} = \lambda_2^{old}+\frac{y_2(E_1-E_2)}{\eta}\\
-\eta =K_{11}+K_{22}+2K_{12} \\
-其中E_i为预测值g(x_i)与真实输出y_i的差\\
+\lambda_2^{new,unc} = \lambda_2^{old}+\frac{y_2(E_1-E_2)}{\eta}\\\\
+\eta =K_{11}+K_{22}+2K_{12} \\\\
+其中E_i为预测值g(x_i)与真实输出y_i的差\\\\
 g(x)=\sum_{i=1}^N\lambda_iy_iK(x_i,x)+b
 $$
 (4) 剪辑后的解：
