@@ -261,9 +261,9 @@ $$
 (4) 剪辑后的解：
 $$
 \lambda_2^{new}=\begin{cases}H,\lambda_2^{new,unc}>H\\\\
-\\
+\\\\
 \lambda_2^{new,unc},L≤\lambda_2^{new,unc}≤H\\\\
-\\
+\\\\
 L,\lambda_2^{new,unc}<L
 \end{cases}
 $$
@@ -275,7 +275,7 @@ $$
 
 * 计算阈值b
   $$
-  b_1^{new}=-E_1-y_1K_{11}(\lambda_1^{new}-\lambda_1^{old})-y_2K_{21}(\lambda_2^{new}-\lambda_2^{old})+b_{old}\\
+  b_1^{new}=-E_1-y_1K_{11}(\lambda_1^{new}-\lambda_1^{old})-y_2K_{21}(\lambda_2^{new}-\lambda_2^{old})+b_{old} \\\\
   b_2^{new}=-E_2-y_1K_{12}(\lambda_1^{new}-\lambda_1^{old})-y_2K_{22}(\lambda_2^{new}-\lambda_2^{old})+b_{old}
   $$
 
