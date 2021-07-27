@@ -279,4 +279,4 @@ $$
 
 ## 伪代码
 
-<img src="C:\Users\wangchuan\Desktop\硕士文件\伪代码.png" alt="伪代码" style="zoom: 67%;" />
+<img src="https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E4%BC%AA%E4%BB%A3%E7%A0%81.png" />
