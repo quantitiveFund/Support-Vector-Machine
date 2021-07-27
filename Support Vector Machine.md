@@ -231,11 +231,11 @@ $$
 * 选择$\lambda_1,\lambda_2$两个变量，其他固定
 
 $$
-\underset{\lambda_1,\lambda_2}{min}\ W(\lambda_1,\lambda_2)=\frac{1}{2}K_{11}\lambda_1^2+\frac{1}{2}K_{22}\lambda_2^2+y_1y_2K_{12}\lambda_1\lambda_2-(\lambda_1+\lambda_2)+y_1\lambda_1\sum_{i=3}^{N}y_i\lambda_iK_{i1}+y_2\lambda_2\sum_{i=3}^{N}y_i\lambda_iK_{i2}\\ s.t.\ \lambda_1y_1+\lambda_2y_2=-\sum_{i=3}^{N}y_i\lambda_i=\zeta\\
+\underset{\lambda_1,\lambda_2}{min}\ W(\lambda_1,\lambda_2)=\frac{1}{2}K_{11}\lambda_1^2+\frac{1}{2}K_{22}\lambda_2^2+y_1y_2K_{12}\lambda_1\lambda_2-(\lambda_1+\lambda_2)+y_1\lambda_1\sum_{i=3}^{N}y_i\lambda_iK_{i1}+y_2\lambda_2\sum_{i=3}^{N}y_i\lambda_iK_{i2}\\\\ s.t.\ \lambda_1y_1+\lambda_2y_2=-\sum_{i=3}^{N}y_i\lambda_i=\zeta\\
 0≤\lambda_i≤C,\ i=1,2
 $$
 
-​	由$\lambda_1y_1+\lambda_2y_2=\zeta$ 可将两个变量的最优化问题简化为单变量的最优化问题，不妨考虑为变量$\lambda_2$的的最优化问题。
+由$\lambda_1y_1+\lambda_2y_2=\zeta$ 可将两个变量的最优化问题简化为单变量的最优化问题，不妨考虑为变量$\lambda_2$的的最优化问题。
 
 (2) 取值范围的约束：
 
