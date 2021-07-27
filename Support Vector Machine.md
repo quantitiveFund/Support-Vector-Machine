@@ -101,8 +101,6 @@ b=y_k-w^Tx_k, 将w^* 代入 \\\\
 b^*=y_k-\sum_{i=1}^{N}\lambda_iy_ix_i^Tx_k
 $$
 
-划分超平面:$w^*x +b^*=0$
-
 **注:由KKT条件可以看到 $1-y_i(w^Tx_i+b)<0$ 的所有样本其$\lambda_i$都为0，也就是只有在最大间隔边界上的点才会起作用，这些样本点被称为支持向量，不在最大间隔边界上的点训练完成后都不需保留。**
 
 
@@ -161,9 +159,9 @@ $$
 
 ### 4.1 非线性问题与核技巧
 
-<img src="C:\Users\15735\Desktop\硕士文件\非线性问题.png" alt="非线性问题" style="zoom:50%;" />
+<img src="https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E9%9D%9E%E7%BA%BF%E6%80%A7%E9%97%AE%E9%A2%98.png" />
 
-<img src="C:\Users\15735\Desktop\硕士文件\异或问题.png" alt="异或问题" style="zoom:67%;" />
+<img src="https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E5%BC%82%E6%88%96%E9%97%AE%E9%A2%98.png" />
 
 非线性问题不好求解，可以采取非线性变换，将非线性问题转化为线性问题，通过解变换后的线性问题的方法求解原来的非线性问题。
 
@@ -206,7 +204,7 @@ $$
 
   
 
-<img src="C:\Users\15735\Desktop\硕士文件\常用核函数.png" alt="常用核函数" style="zoom: 80%;" />
+<img src="https://github.com/quantitiveFund/Support-Vector-Machine/blob/main/%E5%B8%B8%E7%94%A8%E6%A0%B8%E5%87%BD%E6%95%B0.png" />
 
 
 
