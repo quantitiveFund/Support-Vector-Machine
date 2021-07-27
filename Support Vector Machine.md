@@ -260,9 +260,9 @@ g(x)=\sum_{i=1}^N\lambda_iy_iK(x_i,x)+b
 $$
 (4) 剪辑后的解：
 $$
-\lambda_2^{new}=\begin{cases}H,\lambda_2^{new,unc}>H\\
+\lambda_2^{new}=\begin{cases}H,\lambda_2^{new,unc}>H\\\\
 \\
-\lambda_2^{new,unc},L≤\lambda_2^{new,unc}≤H\\
+\lambda_2^{new,unc},L≤\lambda_2^{new,unc}≤H\\\\
 \\
 L,\lambda_2^{new,unc}<L
 \end{cases}
