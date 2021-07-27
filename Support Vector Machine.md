@@ -77,13 +77,11 @@ $$
 ### 2.3  KKT 条件
 
 $$
-\left\{
-\begin{matrix}
+\begin{cases}
 \lambda_i& ≥ 0\\\\
 1-y_i(w^T x_i+b)& ≤ 0\\\\
 \lambda_i\ [1-y_i(w^Tx_i+b)]& = 0
-\end{matrix}
-\right.
+\end{cases}
 $$
 
 $$
